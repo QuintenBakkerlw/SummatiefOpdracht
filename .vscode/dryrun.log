@@ -1,0 +1,12 @@
+C:\msys64\mingw64\bin\mingw32-make.exe all --dry-run --always-make --keep-going --print-directory
+mingw32-make: Entering directory 'c:/Users/quint/AP3/SummatiefOpdracht'
+ 
+g++ -std=c++11 -Wall -o obj/connection.o -c src/connection.cpp
+ 
+g++ -std=c++11 -Wall -o obj/dijkstra.o -c src/dijkstra.cpp
+ 
+g++ -std=c++11 -Wall -o obj/main.o -c src/main.cpp
+g++ -std=c++11 -Wall -o obj/node.o -c src/node.cpp
+g++ -std=c++11 -Wall -o main obj/connection.o obj/dijkstra.o obj/main.o obj/node.o 
+mingw32-make: Leaving directory 'c:/Users/quint/AP3/SummatiefOpdracht'
+ 

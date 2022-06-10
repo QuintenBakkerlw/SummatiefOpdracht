@@ -1,0 +1,13 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\quint\\AP3\\SummatiefOpdracht",
+            "binaryPath": "c:\\Users\\quint\\AP3\\SummatiefOpdracht\\main",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
